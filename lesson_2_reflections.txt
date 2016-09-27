@@ -14,6 +14,9 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	
+	Create a branch for features you want to test out for your app. This way you still have the main functionality of your app in tact.
+	If you're collaborating with others and are assigned different tasks for an app, each person can work on different branches for their assigned task to avoid conflicts if they were each working on the main/master branch.
 
 How do the diagrams help you visualize the branch structure?
 
