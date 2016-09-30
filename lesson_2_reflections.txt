@@ -19,6 +19,8 @@ organized? How would branches help?
 	If you're collaborating with others and are assigned different tasks for an app, each person can work on different branches for their assigned task to avoid conflicts if they were each working on the main/master branch.
 
 How do the diagrams help you visualize the branch structure?
+	
+	The diagrams gave a better picture of the branch structure with the different commits made. It provided a better understanding of how the branches connect to the master, and how commits are made on each branch. Commits made on each branch are not connected to other branches, nor the master branch. The commits only exist in that specific branch.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
