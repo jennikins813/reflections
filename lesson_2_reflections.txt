@@ -24,6 +24,8 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	
+	When we merge two branches together, git brings the commits from each branch together into one branch. The order of the commits are arranged according to its timestamp. Once the merge is complete, your app should reflect the changes made from all the branches included in the merge. Otherwise, merge conflicts occur which you'll need to resolve before moving forward.
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
