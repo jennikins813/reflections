@@ -27,5 +27,8 @@ the diagram the way we do?
 	
 	When we merge two branches together, git brings the commits from each branch together into one branch. The order of the commits are arranged according to its timestamp. Once the merge is complete, your app should reflect the changes made from all the branches included in the merge. Otherwise, merge conflicts occur which you'll need to resolve before moving forward.
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+	
+	Pros: As long as git doesn't detect a conflict in the branches to be merges, it will proceed to merge the branches accordingly. Otherwise, if git finds that the same code was updated in both branches, it will notify you that a conflict exists in the concerned branches and will not move forward with the merge until the conflicts are resolved.
+	Cons: Doing merges manually is very tedious as you'll have to compare each branch and their commit to make sure there is nothing that would cause a conflict.
