@@ -7,4 +7,11 @@ Why might you want to always pull changes manually rather than having Git automa
 
 	By manually pulling changes I'm able to control what I want to include in my project. If I allowed Git to automatically do this for me, it would allow unwanted changes to go through, and that means it would take extra steps for me to undo this. It also helps when there are other contributors to the project. You're able to filter the changes to include in the your project.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	Fork: this is when you want to clone another repository that exists in GitHub onto your own GitHub page. Fork is also a 'clone' where GitHub allows you to create a clone of another repo into your own. You can then make changes to the forked repo without directly making the change on the original repo. A fork will always be linked to the original repo.
+
+	Clone: this is when you clone an existing repo in GitHub (either your own repo or someone else's repo) onto your local computer. Once you successfully clone it to your local computer you can edit and save changes to it and push it back up to GitHub.
+
+	Branch: You can create a branch in your own GitHub repo or on your local file. When you create a branch you create a 'clone' of everything you've saved and pushed into the master branch up to that moment. Then you can start adding new changes that will only exist in that branch and not in the master branch.
    
