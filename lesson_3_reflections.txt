@@ -15,3 +15,6 @@ Describe the differences between forks, clones, and branches. When would you use
 
 	Branch: You can create a branch in your own GitHub repo or on your local file. When you create a branch you create a 'clone' of everything you've saved and pushed into the master branch up to that moment. Then you can start adding new changes that will only exist in that branch and not in the master branch.
    
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	
+	Having a local copy gives you access to your work even when you're offline. You can continue working on your project without worry that your code will trail off from the last known state of the remote.
